@@ -305,11 +305,18 @@ button {
   justify-content: space-between; /* Pushes logo to left, links to right */
   align-items: center;
   padding: 18px 8%;
-  background-color: #f0f0f0;
+  background-color: #0D1B2A;
   margin: 0;
 }
 
 .footer-right {
   display: flex; /* Makes the links sit horizontally */
   gap: 20px;     /* Adds space between the links */
+}
+
+.footer-right img {
+    width: 30px;        
+    height: 30px;
+    margin: 0 10px;     
+    display: inline-block;
 }
