@@ -332,18 +332,15 @@ button {
 
 
 
-
-
-
-
 .influencer-section {
   display: flex;
   align-items: center;
-  background-color: #0D1B2A;
-  color: white;
-  padding: 60px;
+  color: #0D1B2A;
+  /* Top/Bottom: 60px, Left/Right: 100px (adjust as needed) */
+  padding: 60px 100px; 
   gap: 40px;
 }
+
 
 .text-content {
   flex: 1;
@@ -352,10 +349,19 @@ button {
 .image-container {
   position: relative; 
   flex: 1;
+  /* NEW: This rounds the corners of the container */
+  border-radius: 20px; 
+  /* NEW: This clips the image inside to fit the rounded corners of the container */
+  overflow: hidden; 
+  /* Optional: Adds a subtle shadow for depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .image-container img {
   width: 100%;
+  /* NEW: Ensures the image scales correctly without stretching */
+  height: 100%;
+  object-fit: cover; 
   display: block;
 }
 
