@@ -9,6 +9,10 @@ body {
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,6 +29,7 @@ nav {
     width: auto;
 }
 
+<<<<<<< HEAD
 .nav-register-button {
     height: 30px;
     width: auto;
@@ -34,6 +39,8 @@ nav {
     align-items: center;
 }
 
+=======
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
 
 ul {
     display: flex;
@@ -44,7 +51,10 @@ ul {
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
 a {
     text-decoration: none;
     font-size: 0.75rem;
@@ -54,7 +64,10 @@ a {
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
 button {
     padding: 192px 30px;
     border-radius: 3px;
@@ -90,7 +103,11 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('
 .hero-heading {
     font-size: 3.5rem;
     font-weight: 800;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    margin-bottom: 20px; 
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
 }
 
 .hero-heading em {
@@ -124,7 +141,13 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('
 
 .speaker-cards {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: 1fr 1fr;
+=======
+  
+  grid-template-columns: 1fr 1fr;
+  
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
   max-width: 1000px;
   margin: 0 auto;
   gap: 20px;
@@ -150,7 +173,10 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
 .speaker-card p, .speaker-card h3 {
   padding: 0 15px;
   margin: 5px 0;
@@ -218,7 +244,10 @@ button {
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
 .pricing-section ul {
   display: block;
   list-style: none;
@@ -272,7 +301,11 @@ button {
 }
 
 .image-container {
+<<<<<<< HEAD
   position: relative;
+=======
+  position: relative; 
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
   flex: 1;
 }
 
@@ -316,7 +349,11 @@ button {
 
 .footer-right {
   display: flex; 
+<<<<<<< HEAD
   gap: 20px;    
+=======
+  gap: 20px;     
+>>>>>>> 01e753311806d6143e9486ad3eb0ee35d5b4c024
 }
 
 .footer-right img {
