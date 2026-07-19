@@ -9,7 +9,6 @@ body {
 }
 
 
-/* Navigation container */
 nav {
     display: flex;
     justify-content: space-between;
@@ -26,16 +25,26 @@ nav {
     width: auto;
 }
 
-/* Navigation list (menu items) */
+.nav-register-button {
+    height: 30px;
+    width: auto;
+    padding: 5px 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+
 ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 10px; /* Adjusts the space between menu items */
+    gap: 10px; 
 }
 
-/* Navigation links */
+
+
 a {
     text-decoration: none;
     font-size: 0.75rem;
@@ -44,7 +53,8 @@ a {
     transition: background-color 0.3s ease;
 }
 
-/* Register button */
+
+
 button {
     padding: 192px 30px;
     border-radius: 3px;
@@ -80,7 +90,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('
 .hero-heading {
     font-size: 3.5rem;
     font-weight: 800;
-    margin-bottom: 20px; /* হেডিংয়ের নিচে গ্যাপ */
+    margin-bottom: 20px;
 }
 
 .hero-heading em {
@@ -89,15 +99,15 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('
 
 .hero-text {
     font-size: 1.1rem;
-    line-height: 0.8; /* লাইনগুলোর মধ্যবর্তী গ্যাপ */
-    margin-bottom: 50px; /* প্যারাগ্রাফ এবং বাটনের মধ্যবর্তী গ্যাপ (এটি বাড়িয়ে আপনি দূরত্ব বাড়াতে পারবেন) */
+    line-height: 0.8; 
+    margin-bottom: 50px; 
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .register-button {
-    padding: 12px 60px; /* বাটনের হাইট ও চওড়া */
+    padding: 12px 60px; 
     border-radius: 8px;
     font-size: 1.1rem;
     background-color: #1D4ED8;
@@ -114,12 +124,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('
 
 .speaker-cards {
   display: grid;
-  /* CHANGE THIS: Set to 2 columns */
   grid-template-columns: 1fr 1fr;
-  /* ADD THIS: Limits width and centers the grid */
   max-width: 1000px;
   margin: 0 auto;
-  /* Keep your gap */
   gap: 20px;
 }
 
@@ -142,7 +149,8 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('
   display: block;
 }
 
-/* Ensure text inside the card has proper padding */
+
+
 .speaker-card p, .speaker-card h3 {
   padding: 0 15px;
   margin: 5px 0;
@@ -176,13 +184,13 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('
   background: #ffffff;
 }
 
-/* Pro Card Specifics */
+
 .card.pro {
-  background: #0f172a; /* Dark background */
+  background: #0f172a; 
   color: #ffffff;
 }
 
-/* List Styling */
+
 ul {
   list-style: none;
   padding: 0;
@@ -194,7 +202,7 @@ li {
   font-size: 0.9em;
 }
 
-/* Button Styling */
+
 button {
   width: 100%;
   padding: 12px;
@@ -210,7 +218,7 @@ button {
 }
 
 
-/* Now these styles only apply to lists inside the pricing section */
+
 .pricing-section ul {
   display: block;
   list-style: none;
@@ -244,9 +252,7 @@ button {
 .card.pro {
   background: #0f172a;
   color: #ffffff;
-  /* Add this line to create the shadow */
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
-  /* Optional: make it slightly larger than the others to emphasize it */
   transform: scale(1.05);
 }
 
@@ -266,7 +272,7 @@ button {
 }
 
 .image-container {
-  position: relative; /* Anchors the overlay to the image */
+  position: relative;
   flex: 1;
 }
 
@@ -278,7 +284,7 @@ button {
 .stats-overlay {
   position: absolute;
   top: 50%;
-  left: 20px; /* Adjust this to position horizontally */
+  left: 20px; 
   transform: translateY(-50%);
   color: white;
 }
@@ -301,7 +307,7 @@ button {
 
 .footer {
   display: flex;
-  justify-content: space-between; /* Pushes logo to left, links to right */
+  justify-content: space-between;
   align-items: center;
   padding: 18px 8%;
   background-color: #0D1B2A;
@@ -309,8 +315,8 @@ button {
 }
 
 .footer-right {
-  display: flex; /* Makes the links sit horizontally */
-  gap: 20px;     /* Adds space between the links */
+  display: flex; 
+  gap: 20px;    
 }
 
 .footer-right img {
