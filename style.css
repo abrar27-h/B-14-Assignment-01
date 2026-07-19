@@ -336,7 +336,6 @@ button {
   display: flex;
   align-items: center;
   color: #0D1B2A;
-  /* Top/Bottom: 60px, Left/Right: 100px (adjust as needed) */
   padding: 60px 100px; 
   gap: 40px;
 }
@@ -349,17 +348,13 @@ button {
 .image-container {
   position: relative; 
   flex: 1;
-  /* NEW: This rounds the corners of the container */
   border-radius: 20px; 
-  /* NEW: This clips the image inside to fit the rounded corners of the container */
   overflow: hidden; 
-  /* Optional: Adds a subtle shadow for depth */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .image-container img {
   width: 100%;
-  /* NEW: Ensures the image scales correctly without stretching */
   height: 100%;
   object-fit: cover; 
   display: block;
@@ -390,27 +385,23 @@ button {
 
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  padding: 0 8%;
-  background-color: #0D1B2A;
-  border-bottom: 0 solid #0D1B2A;
-  height: 51px;
-  margin-top: 100px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    background-color: #0D1B2A;
+    height: 51px;
+    margin-top: 100px;
 }
 
 .footer-right {
-  display: flex;
-  gap: 5px; 
-  align-items: center; 
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .footer-right img {
-  width: 30px;
-  height: 30px;
-  margin: 0; 
-  display: block;
+    width: 30px;
+    height: 30px;
+    display: block;
 }
