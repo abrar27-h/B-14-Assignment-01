@@ -398,13 +398,13 @@ button {
 
 .footer-right {
   display: flex;
-  gap: 5px; /* Adjust this to control exact space between icons */
-  align-items: center; /* Ensures icons are vertically centered */
+  gap: 5px; 
+  align-items: center; 
 }
 
 .footer-right img {
   width: 30px;
   height: 30px;
-  margin: 0; /* Remove the 10px margin that was pushing them apart */
+  margin: 0; 
   display: block;
 }
